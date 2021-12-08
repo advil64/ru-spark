@@ -38,3 +38,13 @@ posts have the most impact/reach?
 |7057|4.70|
 |3456|4.67|
 |9864|4.64|
+
+**Q:** What was the hardest parts about implementing your project and how did you overcome them? If you had difficulties and couldn’t finish the project, describe what you think you could’ve done better or what you think would’ve helped.
+
+**A:** Learning spark was definitely an interesting challenge but certainly a useful adventure as it's incredibly practical in a data science/data engineering setting which if my goal after graduation. I think the hardest part has to be the horrible documentation that java spark has, the javadocs were next to useless in helping me understand what the methods were supposed to do.
+
+I also wanted to take a different approach to this problem than the one outlined in the Word Count example. From my previous experience as a data science intern, I worked a lot with pandas dataframes which made me inclined to use a similar approach when trying to tackle this assignment. I realized that Spark datasets were extremely similar to what I've worked with before and so opted to take a different approach and learn a lot in the process.
+
+To compensate for the poor documentation, I ended up looking at a lot of source code and stack overflow posts on how to work with spark datasets in java. A combination of the two helped me understand how the code worked.
+
+One of the most surprising things I found out was the ability to apply sql queries to spark datasets which made it much much easier to solve the hour impact and movie average questions, if you are able to leverage the full power of sql it's often surprising just how much you can do with it.
